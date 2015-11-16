@@ -1,0 +1,34 @@
+{
+  "name": "retention-guard",
+  "version": "1.0.0",
+  "description": "Enforce a retention policy for a folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kedemd/retention-guard.git"
+  },
+  "keywords": [
+    "retention",
+    "policy",
+    "folder",
+    "fs",
+    "limit",
+    "size",
+    "age"
+  ],
+  "author": "Kedem Diamant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kedemd/retention-guard/issues"
+  },
+  "homepage": "https://github.com/kedemd/retention-guard",
+  "dependencies": {
+    "async": "^1.5.0",
+    "chokidar": "^1.2.0",
+    "fs": "0.0.2",
+    "proper-lockfile": "^1.0.2"
+  }
+}
