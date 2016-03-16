@@ -27,6 +27,7 @@
   "homepage": "https://github.com/kedemd/retention-guard",
   "dependencies": {
     "async": "^1.5.0",
-    "chokidar": "^1.2.0"
+    "chokidar": "^1.2.0",
+    "diskusage": "^0.1.5"
   }
 }
