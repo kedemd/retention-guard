@@ -1,6 +1,6 @@
 {
   "name": "retention-guard",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Enforce a retention policy for a folder",
   "main": "index.js",
   "scripts": {
