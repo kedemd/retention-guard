@@ -7,7 +7,7 @@ Retention guard use chokidar library to efficiently calculate the size of the fo
 
 Retention guard will automatically delete old files to create room for new files.
 
-<code>
+
     var RetentionGuard = require('retention-guard');
 
     var guard = new RetentionGuard('/path-to-dir', {
@@ -18,4 +18,3 @@ Retention guard will automatically delete old files to create room for new files
     guard.start();
 
     // guard.size <- current directory size
-</code>
